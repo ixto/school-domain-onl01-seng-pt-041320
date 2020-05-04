@@ -41,3 +41,7 @@ class School
   end
   
 end
+
+new_school = School.new("NVCC")
+new_school.add_student("Joey", 100)
+new_school.roster
